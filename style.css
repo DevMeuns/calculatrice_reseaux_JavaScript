@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    display: grid;
+    margin: 10rem;
+    margin-top: 5rem;
+    background-color: #D3D3D3;
+    border: 4mm ridge rgba(157,215,213,0.58);
+}
+header {
+    margin: 5rem;
+    
+}
+h1 {
+    background-color: #A69393;
+    text-align: center;
+    text-decoration: underline;
+}
+main {
+    margin: 6rem;
+    margin-top: 0;
+    background-color: #A69393;
+}
+table {
+    margin: 2rem auto;
+}
+input {
+    border: none;
+    text-align: center;
+    font-size: 1rem;  
+}
+
+
+.description {
+    text-align: start;
+}
+button {
+    height: 2rem;
+    width: 5rem;
+}
+

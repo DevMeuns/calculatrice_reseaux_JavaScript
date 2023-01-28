@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" type="module"></script>
+    <title>Calculatrice réseaux</title>
+</head>
+<body>
+    <div class="conteiner">
+    <header>
+        <h1>Calcul des adresses IPv4</h1>
+    </header>
+    <main>
+        <h2>Adresse IP</h2>
+            <div id="ipaddr">
+                <p>Adresse IP :</p>
+                    <input aria-colspan="8" id="ip1" type="number" min="0" max="255" step="1" value="112">
+                    
+                    <input aria-colspan="8" id="ip2" type="number" min="0" max="255" step="1" value="22">
+                    
+                    <input aria-colspan="8" id="ip3" type="number" min="0" max="255" step="1" value="1">
+                    
+                    <input aria-colspan="8" id="ip4" type="number" min="0" max="255" step="1" value="12">
+                    
+            </div>
+            <div class="mask_dec">
+                    <p> Mask (décimale) :</p>
+                    <input aria-colspan="8" id="mask1" type="number" min="255" max="255" step="0" value="255">
+                    
+                    <input aria-colspan="8" id="mask2" type="number" min="0" max="255" step="1" value="0">
+
+                    <input aria-colspan="8" id="mask3" type="number" min="0" max="255" step="1" value="0">
+                    
+                    <input aria-colspan="8"  id="mask4" type="number" min="0" max="255" step="1" value="0">
+            </div>    
+        
+            <button id="calculate">calculer</button>
+        
+        <div id="net_add"></div>
+        <div id="net_add_bin"></div>
+        <div id="class"></div>
+        <div id="mask_default"></div>
+        <div id="net_mask_bin"></div>
+        <div id="net_bits"></div>
+        <div id="broad"></div>
+        <div id="subnet"></div>
+        <div id="subnet_bin"></div>
+        <div id="net_host_bits"></div>
+        <div id="pot_sub_bits"></div>
+        <div id="pot_sub_count"></div>
+        <div id="net_host_count"></div>
+        
+        
+    
+</main>
+</body>
+</html>
